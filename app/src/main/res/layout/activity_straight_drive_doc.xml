@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Straight_Drive_Doc">
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:src="@drawable/babar_azam_cover_drive" />
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="428dp"
+        android:paddingBottom="100dp"
+        android:text="Heldfsfjhsdjkfhjkshdfjshdflo CSE"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>
