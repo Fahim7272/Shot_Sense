@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShotSense">
         <activity
+            android:name=".Straight_drive_tutorial"
+            android:exported="false" />
+        <activity
+            android:name=".Straight_Drive_Doc"
+            android:exported="false" />
+        <activity
             android:name=".Cover_drive_tutorial"
             android:exported="false" />
         <activity

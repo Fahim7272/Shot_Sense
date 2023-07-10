@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Straight_Drive_Doc">
+
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/jason_roy_straight_drive" />
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:text="PIC: Jason Roy's Straight Drive"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ob2"
+        android:layout_below="@+id/top"
+        android:layout_toRightOf="@+id/ob1"
+        android:text="SEE TUTORIAL" />
+
+    <ScrollView
+        android:id="@+id/ob2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/ob1">
+
+
+        <TextView
+            android:id="@+id/para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The straight drive is a classic cricket shot that showcases a batsman's technique, timing, and ability to play the ball straight down the ground. It is a shot of elegance and control, often executed with a full face of the bat. Mastering the straight drive requires focus, footwork, and precision.
+
+To play the straight drive effectively, a batsman must have solid footwork and positioning. As the bowler delivers the ball, the batsman needs to move their front foot towards the line of the ball, ensuring it is aligned with the delivery. This allows for better balance and enables the batsman to reach the pitch of the ball with ease.
+
+Timing is crucial when playing the straight drive. The batsman must wait for the ball to come within their hitting zone before executing the shot. This requires keen observation of the bowler's release point and the trajectory of the ball. Patience and discipline are key to ensuring the perfect timing for the shot.
+
+As the ball approaches, the batsman should adopt a solid and balanced stance. The head should be positioned directly over the front foot, allowing for better control and balance. The backlift of the bat should be high and straight, ready to come down smoothly and meet the ball.
+
+When the ball is in the desired hitting zone, the batsman needs to transfer their weight onto the front foot and bring the bat down in a fluid motion. The bat should make contact with the ball in front of the front foot, allowing for a clean and powerful strike. The wrists should be flexible, allowing for controlled follow-through and direction.
+
+After making contact with the ball, the batsman should extend their arms and rotate their wrists, maintaining control and guiding the ball straight down the ground. The follow-through should be smooth and balanced, with the bat finishing high and in line with the intended direction of the shot.
+
+Regular practice and match experience are essential to develop a sound straight drive. Batsmen should focus on honing their footwork, timing, and technique through net sessions and match practice. By mastering the straight drive, batsmen can confidently assert their dominance at the crease, scoring runs and showcasing their skills to the delight of spectators.
+
+In conclusion, the straight drive is a shot that epitomizes the artistry of batting in cricket. With proper footwork, timing, and execution, a batsman can play this elegant stroke and send the ball straight down the ground, displaying their prowess and adding valuable runs to the team's total."
+            />
+    </ScrollView>
+
+
+</RelativeLayout>

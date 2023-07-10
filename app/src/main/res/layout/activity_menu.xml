@@ -150,7 +150,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@+id/straight_drive"
-        android:background="#00FFFFFF"/>
+        android:background="#00FFFFFF" />
 
     <Button
         android:id="@+id/pull_shot_bt"
