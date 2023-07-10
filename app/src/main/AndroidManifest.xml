@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShotSense">
         <activity
+            android:name=".Cover_drive_tutorial"
+            android:exported="false" />
+        <activity
             android:name=".Cover_Drive_Doc"
             android:exported="false" />
         <activity

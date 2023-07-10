@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"Logged in",
                         Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.this, Menu.class);
+                Intent intent = new Intent(MainActivity.this, Cover_Drive_Doc.class);
                 startActivity(intent);
             }
         });
