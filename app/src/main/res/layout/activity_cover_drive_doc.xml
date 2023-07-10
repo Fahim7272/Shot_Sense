@@ -14,22 +14,34 @@
 
     <TextView
         android:id="@+id/ob1"
-        android:layout_width="match_parent"
+        android:layout_width="195dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/top"
-        android:layout_marginLeft="100dp"
         android:text="PIC: Babar Azam's Cover Drive"
         android:textColor="@color/black"
-        android:textSize="16sp" />
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ob1"
+        android:layout_below="@+id/top"
+        android:layout_above="@+id/ob2"
+        android:text="SEE TUTORIAL"
+        android:background="#FFFFCC"
+        />
 
     <ScrollView
         android:id="@+id/ob2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/ob1"
-        >
+
+        android:layout_below="@+id/ob1">
+
 
         <TextView
+            android:id="@+id/para"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="The cover drive is a classic and elegant cricket shot that requires precision and timing. It is played by the batsman with a fluid and graceful swing of the bat, driving the ball through the covers towards the boundary on the off-side. Mastering the cover drive is essential for any batsman looking to display their skill and dominance at the crease.
@@ -46,11 +58,12 @@ The follow-through is another crucial aspect of the cover drive. After making co
 
 It is important to note that the cover drive requires practice and discipline. Batsmen should spend time honing their technique, working on their footwork, timing, and follow-through. Regular net sessions and match practice will aid in developing a sound cover drive and the ability to execute it effectively in different game situations.
 
-In conclusion, the cover drive is a shot that embodies elegance and timing in cricket. By mastering the footwork, timing, and execution, a batsman can confidently play this delightful stroke and send the ball racing through the covers, delighting fans and adding runs to the scoreboard."
-            />
+In conclusion, the cover drive is a shot that embodies elegance and timing in cricket. By mastering the footwork, timing, and execution, a batsman can confidently play this delightful stroke and send the ball racing through the covers, delighting fans and adding runs to the scoreboard." />
 
 
     </ScrollView>
+
+
 
 
 
