@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShotSense">
         <activity
+            android:name=".Flick_shot_tutorial"
+            android:exported="false" />
+        <activity
+            android:name=".Flick_Shot_Doc"
+            android:exported="false" />
+        <activity
             android:name=".Hook_shot_tutorial"
             android:exported="false" />
         <activity

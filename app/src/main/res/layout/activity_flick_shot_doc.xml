@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Flick_Shot_Doc">
+
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:src="@drawable/david_conway_flick_shot" />
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:text="PIC: David Conway Playing Flick Shot"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ob2"
+        android:layout_below="@+id/top"
+        android:layout_toRightOf="@+id/ob1"
+        android:text="SEE TUTORIAL" />
+
+    <ScrollView
+        android:id="@+id/ob2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/ob1">
+
+
+        <TextView
+            android:id="@+id/para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The flick shot is a stylish and effective stroke in cricket that allows batsmen to redirect deliveries from the leg side to the boundary with finesse and precision. It requires quick reflexes, excellent hand-eye coordination, and precise timing. Mastering the flick shot can provide batsmen with an advantage against bowlers targeting the leg stump and create scoring opportunities on the leg side.
+
+To play the flick shot successfully, several key factors come into play. Firstly, footwork is crucial. As the bowler delivers the ball, the batsman needs to position themselves correctly and get into a balanced stance. They should transfer their weight onto the front foot while ensuring the back foot is well planted to provide stability and a solid base.
+
+Timing is paramount when executing the flick shot. The batsman must judge the line and length of the ball and anticipate its arrival in the desired hitting zone. Patience and quick decision-making are essential. It's crucial to wait for the ball to come into the desired position, slightly ahead of the leg stump, to ensure a well-timed and controlled stroke.
+
+As the ball approaches, the batsman needs to bring the bat down swiftly in a horizontal or slightly upward arc, using their wrists to flick the ball with controlled power. The bottom hand plays a significant role in generating the required force while maintaining control over the shot.
+
+When the bat makes contact with the ball, it should be with a smooth and clean strike. The wrists should be flexible to allow for accurate direction and placement of the shot. The objective is to time the shot to perfection and guide the ball towards vacant areas on the leg side, away from fielders.
+
+After making contact, the batsman needs to follow through with the shot, ensuring balance and control. This helps in maintaining control over the direction and power of the flick.
+
+Regular practice and match experience are essential for developing a sound flick shot. Batsmen should focus on honing their footwork, timing, and technique through dedicated net sessions and simulated match scenarios. By mastering the flick shot, batsmen can confidently manipulate the field, score boundaries, and keep the scoreboard ticking on the leg side.
+
+In conclusion, the flick shot is a graceful and effective stroke that allows batsmen to score runs on the leg side with precision. By employing the right footwork, timing, and execution, a batsman can play this stylish stroke and redirect the ball with finesse, adding valuable runs to their team's total while showcasing their skill and control at the crease."
+            />
+
+    </ScrollView>
+
+
+</RelativeLayout>
