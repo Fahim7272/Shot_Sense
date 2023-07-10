@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Sweep_Shot_Doc">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/younis_khan_sweep_shot" />
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:text="PIC: Younis Khan Playing Sweep Shot"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ob2"
+        android:layout_below="@+id/top"
+        android:layout_toRightOf="@+id/ob1"
+        android:text="SEE TUTORIAL" />
+
+    <ScrollView
+        android:id="@+id/ob2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/ob1">
+
+
+        <TextView
+            android:id="@+id/para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The sweep shot is a dynamic and innovative stroke in cricket that allows batsmen to take on spinners and score runs on the leg side with finesse and creativity. It requires a combination of technique, footwork, and astute shot selection. Mastering the sweep shot can significantly enhance a batsman's ability to handle spin bowling and manipulate the field.
+
+To play the sweep shot effectively, several key factors come into play. Firstly, footwork and positioning are crucial. As the spinner delivers the ball, the batsman needs to quickly assess the length and line of the delivery. If the ball is pitched on or outside the leg stump, the batsman should get into a crouched position and position themselves accordingly.
+
+Timing and judgment are paramount in executing the sweep shot. The batsman must carefully judge the flight and trajectory of the ball, waiting for it to reach the desired position before committing to the shot. Patience and a keen understanding of the bowler's variations are essential. It's crucial to wait for the ball to come into the desired hitting zone to ensure a well-timed and controlled connection.
+
+As the ball approaches, the batsman needs to bring the bat down in a sweeping motion, starting from a low position and extending the arms fully. The bat should make contact with the ball just after it has bounced, ensuring that the shot is played with a controlled and fluid action.
+
+When the bat connects with the ball, it should be with a combination of power and precision. The wrists play a significant role in guiding the shot and directing the ball into the gaps on the leg side. The aim is to manipulate the field, finding spaces away from fielders to score runs.
+
+After making contact, the batsman should follow through with the shot, maintaining balance and control. This helps in maintaining control over the direction and power of the shot.
+
+Regular practice and match experience are essential for developing a sound sweep shot. Batsmen should focus on honing their footwork, timing, and technique through dedicated net sessions and simulated match scenarios. By mastering the sweep shot, batsmen can confidently tackle spin bowling, exploit gaps in the field, and score valuable runs.
+
+In conclusion, the sweep shot is a versatile and effective stroke that allows batsmen to score runs on the leg side against spinners. By employing the right footwork, timing, and execution, a batsman can play this creative stroke and manipulate the field, adding valuable runs to their team's total while showcasing their skill and ingenuity at the crease."
+            />
+
+    </ScrollView>
+
+
+</RelativeLayout>

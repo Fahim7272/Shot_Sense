@@ -119,7 +119,7 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"Sweep Shot",
                         Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
+                Intent intent = new Intent(Menu.this, Sweep_Shot_Doc.class);
                 startActivity(intent);
             }
         });
