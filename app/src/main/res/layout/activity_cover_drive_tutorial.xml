@@ -6,10 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".Cover_drive_tutorial">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
 
-        android:text="FAHIM"
-        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <VideoView
+            android:id="@+id/cover_drive_tutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </FrameLayout>
+
 </RelativeLayout>
