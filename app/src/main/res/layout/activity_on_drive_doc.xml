@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".On_Drive_Doc">
+
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:src="@drawable/virat_kohli_on_drive" />
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:text="PIC: Virat Kohli playing On Drive   "
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ob2"
+        android:layout_below="@+id/top"
+        android:layout_toRightOf="@+id/ob1"
+        android:text="SEE TUTORIAL" />
+
+    <ScrollView
+        android:id="@+id/ob2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/ob1">
+
+
+        <TextView
+            android:id="@+id/para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The on-drive is a delightful and skillful cricket shot that allows a batsman to showcase their ability to play the ball straight down the ground with precision and timing. It is a shot that requires a combination of technique, footwork, and excellent hand-eye coordination. Mastering the on-drive can significantly enhance a batsman's scoring options and dominate the bowling attack.
+
+To play the on-drive effectively, several key factors come into play. Firstly, footwork is crucial. As the bowler delivers the ball, the batsman needs to make a decisive forward movement, ensuring that the front foot is planted firmly down the pitch. This allows the batsman to get closer to the pitch of the ball and achieve the desired connection.
+
+Timing is of utmost importance when playing the on-drive. The batsman must wait for the ball to come within their hitting zone before committing to the shot. Patience and a keen understanding of the bowler's pace and line are essential. It's crucial to wait for the ball to reach the batsman at the right moment to ensure a clean and controlled stroke.
+
+As the ball approaches, the batsman should adopt a balanced stance and position their head directly over the front foot. The backlift of the bat should be high and straight, preparing for a fluid and confident downswing.
+
+When the ball is in the hitting zone, the batsman needs to bring the bat down in a smooth and controlled arc, making contact slightly in front of the front foot. The wrists should be flexible, allowing for precise control over the shot. The follow-through should be extended and balanced, with the bat finishing high and pointing in the direction of the shot.
+
+Regular practice and match experience are vital for developing a sound on-drive. Batsmen should focus on honing their footwork, timing, and technique through dedicated net sessions and match simulations. By mastering the on-drive, batsmen can confidently take on the bowling attack, score runs, and command respect on the field.
+
+In conclusion, the on-drive is a graceful and powerful shot that demonstrates a batsman's technical prowess and timing. By implementing the correct footwork, timing, and execution, a batsman can play this exquisite stroke and send the ball racing straight down the ground, both mesmerizing spectators and adding valuable runs to the scoreboard."
+            />
+
+    </ScrollView>
+
+
+</RelativeLayout>

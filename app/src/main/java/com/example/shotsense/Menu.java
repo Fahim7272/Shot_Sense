@@ -47,6 +47,88 @@ public class Menu extends AppCompatActivity {
         });
 
 
+        on_drive=(Button)findViewById(R.id.on_drive_bt);
+        on_drive.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"On Drive",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Menu.this, On_Drive_Doc.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+        cover_drive=(Button)findViewById(R.id.cover_drive_bt);
+        cover_drive.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Cover Drive",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
+        cover_drive=(Button)findViewById(R.id.cover_drive_bt);
+        cover_drive.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Cover Drive",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+        cover_drive=(Button)findViewById(R.id.cover_drive_bt);
+        cover_drive.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Cover Drive",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+        cover_drive=(Button)findViewById(R.id.cover_drive_bt);
+        cover_drive.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Cover Drive",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+        cover_drive=(Button)findViewById(R.id.cover_drive_bt);
+        cover_drive.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Cover Drive",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
+                startActivity(intent);
+            }
+        });
+
+
 
 
 
