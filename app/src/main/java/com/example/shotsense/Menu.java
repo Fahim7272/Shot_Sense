@@ -61,12 +61,12 @@ public class Menu extends AppCompatActivity {
 
 
 
-        cover_drive=(Button)findViewById(R.id.cover_drive_bt);
-        cover_drive.setOnClickListener(new View.OnClickListener() {
+        cut_shot=(Button)findViewById(R.id.cut_shot_bt);
+        cut_shot.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Cover Drive",
+                Toast.makeText(getApplicationContext(),"Cut Shot",
                         Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
+                Intent intent = new Intent(Menu.this, Cut_Shot_Doc.class);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cut_Shot_Doc">
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/tamim_iqbal_cut_shot" />
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:text="PIC: Tamim Iqbal Playing   Cut Shot"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ob2"
+        android:layout_below="@+id/top"
+        android:layout_toRightOf="@+id/ob1"
+        android:text="SEE TUTORIAL" />
+
+    <ScrollView
+        android:id="@+id/ob2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/ob1">
+
+
+        <TextView
+            android:id="@+id/para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The cut shot is a dynamic and aggressive stroke in cricket, allowing the batsman to take advantage of shorter deliveries and score runs on the off-side with power and precision. It requires a combination of timing, footwork, and hand-eye coordination. Mastering the cut shot can significantly enhance a batsman's scoring options and put pressure on the opposition.
+
+To execute the cut shot effectively, several key elements come into play. Firstly, footwork plays a crucial role. As the bowler delivers the ball, the batsman needs to quickly identify the length of the delivery. If it is short or wide outside off-stump, the batsman should swiftly move onto the back foot and position themselves towards the off-side.
+
+Timing is vital in playing the cut shot. The batsman must wait for the ball to come into their hitting zone before committing to the stroke. Patience and anticipation of the ball's trajectory are essential. It's crucial to wait for the ball to reach the desired position to ensure a well-timed and controlled shot.
+
+As the ball approaches, the batsman should position themselves with a slightly open stance, ensuring their weight is evenly distributed. The backlift of the bat should be raised, ready to come down forcefully in a downward arc.
+
+When the ball is in the perfect hitting zone, the batsman needs to bring the bat down swiftly and make contact with the ball just behind the front foot. The wrists should be firm, providing control and direction to the shot. The power generated from the quick downward swing of the bat creates the desired force to hit the ball through the off-side field.
+
+After making contact, the batsman should follow through with the shot, extending their arms and maintaining balance. This helps guide the ball with accuracy and avoid any potential mis-hits.
+
+Regular practice and match experience are essential for developing a sound cut shot. Batsmen should focus on refining their footwork, timing, and technique through dedicated net sessions and simulated match scenarios. By mastering the cut shot, batsmen can confidently attack short-pitched deliveries, maneuver the field, and score boundaries.
+
+In conclusion, the cut shot is an aggressive and powerful stroke that allows a batsman to score runs on the off-side. By employing the right footwork, timing, and execution, a batsman can play this exhilarating stroke and send the ball racing through the point or cover region, adding valuable runs to the team's total and maintaining control in the game." />
+
+    </ScrollView>
+
+
+</RelativeLayout>
