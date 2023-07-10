@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShotSense">
         <activity
-            android:name=".Straight_Drive_Doc"
+            android:name=".Cover_Drive_Doc"
             android:exported="false" />
         <activity
             android:name=".Menu"

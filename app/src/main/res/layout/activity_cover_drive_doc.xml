@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cover_Drive_Doc">
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:src="@drawable/babar_azam_cover_drive" />
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginLeft="100dp"
+        android:text="PIC: Babar Azam's Cover Drive"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ScrollView
+        android:id="@+id/ob2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ob1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The cover drive is a classic and elegant cricket shot that requires precision and timing. It is played by the batsman with a fluid and graceful swing of the bat, driving the ball through the covers towards the boundary on the off-side. Mastering the cover drive is essential for any batsman looking to display their skill and dominance at the crease.
+
+To play the cover drive effectively, several key elements must be considered. Firstly, footwork plays a crucial role. As the bowler delivers the ball, the batsman needs to take a decisive step towards the line of the ball, positioning themselves correctly. The front foot should be aligned with the line of the delivery, allowing the batsman to reach the ball with ease.
+
+Timing is of utmost importance when executing the cover drive. The batsman needs to wait for the ball to come into their hitting zone, ensuring that they make contact at the right moment. This requires patience and keen observation of the bowler's release point and the trajectory of the ball.
+
+As the ball approaches, the batsman should position themselves in a balanced stance, with their head positioned directly over the front foot. The backlift of the bat should be high and straight, ensuring that the bat is ready to come down in a smooth and controlled arc.
+
+When the ball is in the desired hitting zone, the batsman should bring the bat down swiftly and transfer their weight onto the front foot, generating power and momentum. The bat should make contact with the ball slightly in front of the front foot, allowing for a clean and crisp connection.
+
+The follow-through is another crucial aspect of the cover drive. After making contact with the ball, the batsman should continue the flow of their shot by extending their arms and rotating their wrists. This helps to maintain control and direction, guiding the ball through the covers with precision.
+
+It is important to note that the cover drive requires practice and discipline. Batsmen should spend time honing their technique, working on their footwork, timing, and follow-through. Regular net sessions and match practice will aid in developing a sound cover drive and the ability to execute it effectively in different game situations.
+
+In conclusion, the cover drive is a shot that embodies elegance and timing in cricket. By mastering the footwork, timing, and execution, a batsman can confidently play this delightful stroke and send the ball racing through the covers, delighting fans and adding runs to the scoreboard."
+            />
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
