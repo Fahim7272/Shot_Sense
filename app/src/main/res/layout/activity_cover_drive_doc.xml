@@ -25,11 +25,10 @@
         android:id="@+id/bt1"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/ob1"
-        android:layout_below="@+id/top"
         android:layout_above="@+id/ob2"
-        android:text="SEE TUTORIAL"
-        />
+        android:layout_below="@+id/top"
+        android:layout_toRightOf="@+id/ob1"
+        android:text="SEE TUTORIAL" />
 
     <ScrollView
         android:id="@+id/ob2"
