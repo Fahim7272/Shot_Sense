@@ -7,15 +7,12 @@
     tools:context=".Menu" >
 
 
-
-
-
     <ImageView
         android:id="@+id/hook_shot"
         android:layout_width="173dp"
         android:layout_height="90dp"
         android:layout_below="@id/cut_shot"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
         android:src="@drawable/hookshot" />
 
@@ -30,7 +27,7 @@
         android:layout_width="173dp"
         android:layout_height="90dp"
         android:layout_below="@id/top"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
         android:src="@drawable/sdrive" />
 
@@ -39,7 +36,7 @@
         android:layout_width="161dp"
         android:layout_height="88dp"
         android:layout_below="@id/top"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@+id/straight_drive"
         android:src="@drawable/coverdrive" />
@@ -49,7 +46,7 @@
         android:layout_width="161dp"
         android:layout_height="88dp"
         android:layout_below="@id/cover_drive"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@+id/pull_shot"
         android:src="@drawable/ondrive" />
@@ -59,7 +56,7 @@
         android:layout_width="161dp"
         android:layout_height="88dp"
         android:layout_below="@id/on_drive"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@+id/cut_shot"
         android:src="@drawable/flickshot" />
@@ -69,7 +66,7 @@
         android:layout_width="161dp"
         android:layout_height="88dp"
         android:layout_below="@id/flick_shot"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@+id/hook_shot"
         android:src="@drawable/sweepshot" />
@@ -79,7 +76,7 @@
         android:layout_width="173dp"
         android:layout_height="86dp"
         android:layout_below="@id/straight_drive"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
         android:src="@drawable/pullshot" />
 
@@ -88,7 +85,7 @@
         android:layout_width="176dp"
         android:layout_height="86dp"
         android:layout_below="@id/pull_shot"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
         android:src="@drawable/cutshot" />
 
@@ -98,7 +95,7 @@
         android:layout_width="173dp"
         android:layout_height="90dp"
         android:layout_below="@id/top"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
         android:background="#00FFFFFF" />
 
@@ -107,7 +104,7 @@
         android:layout_width="161dp"
         android:layout_height="88dp"
         android:layout_below="@id/top"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@+id/straight_drive"
         android:background="#00FFFFFF" />
@@ -117,19 +114,19 @@
         android:layout_width="173dp"
         android:layout_height="86dp"
         android:layout_below="@id/straight_drive"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
-        android:background="#00FFFFFF"/>
+        android:background="#00FFFFFF" />
 
     <Button
         android:id="@+id/on_drive_bt"
         android:layout_width="161dp"
         android:layout_height="88dp"
         android:layout_below="@id/cover_drive"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@+id/pull_shot"
-        android:background="#00FFFFFF"/>
+        android:background="#00FFFFFF" />
 
 
     <Button
@@ -137,28 +134,28 @@
         android:layout_width="176dp"
         android:layout_height="86dp"
         android:layout_below="@id/pull_shot"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
-        android:background="#00FFFFFF"/>
+        android:background="#00FFFFFF" />
 
     <Button
         android:id="@+id/flick_shot_bt"
         android:layout_width="161dp"
         android:layout_height="88dp"
         android:layout_below="@id/on_drive"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@+id/cut_shot"
-        android:background="#00FFFFFF"/>
+        android:background="#00FFFFFF" />
 
     <Button
         android:id="@+id/hook_shot_bt"
         android:layout_width="173dp"
         android:layout_height="90dp"
         android:layout_below="@id/cut_shot"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="30dp"
-        android:background="#00FFFFFF"/>
+        android:background="#00FFFFFF" />
 
 
     <Button
@@ -166,9 +163,9 @@
         android:layout_width="161dp"
         android:layout_height="88dp"
         android:layout_below="@id/flick_shot"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@+id/hook_shot"
-        android:background="#00FFFFFF"/>
+        android:background="#00FFFFFF" />
 
 </RelativeLayout>
