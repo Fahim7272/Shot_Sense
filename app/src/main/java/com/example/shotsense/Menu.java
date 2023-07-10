@@ -60,7 +60,6 @@ public class Menu extends AppCompatActivity {
 
 
 
-
         cut_shot=(Button)findViewById(R.id.cut_shot_bt);
         cut_shot.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -101,12 +100,12 @@ public class Menu extends AppCompatActivity {
 
 
 
-        cover_drive=(Button)findViewById(R.id.cover_drive_bt);
-        cover_drive.setOnClickListener(new View.OnClickListener() {
+        pull_shot=(Button)findViewById(R.id.pull_shot_bt);
+        pull_shot.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Cover Drive",
+                Toast.makeText(getApplicationContext(),"Pull Shot",
                         Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
+                Intent intent = new Intent(Menu.this, Pull_Shot_Doc.class);
                 startActivity(intent);
             }
         });
@@ -115,30 +114,15 @@ public class Menu extends AppCompatActivity {
 
 
 
-        cover_drive=(Button)findViewById(R.id.cover_drive_bt);
-        cover_drive.setOnClickListener(new View.OnClickListener() {
+        sweep_shot=(Button)findViewById(R.id.sweep_shot_bt);
+        sweep_shot.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Cover Drive",
+                Toast.makeText(getApplicationContext(),"Sweep Shot",
                         Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
                 startActivity(intent);
             }
         });
-
-
-
-
-
-        cover_drive=(Button)findViewById(R.id.cover_drive_bt);
-        cover_drive.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Cover Drive",
-                        Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(Menu.this, Cover_Drive_Doc.class);
-                startActivity(intent);
-            }
-        });
-
 
 
 

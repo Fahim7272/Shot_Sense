@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShotSense">
         <activity
+            android:name=".Sweep_shot_tutorial"
+            android:exported="false" />
+        <activity
+            android:name=".Sweep_Shot_Doc"
+            android:exported="false" />
+        <activity
+            android:name=".Pull_shot_tutorial"
+            android:exported="false" />
+        <activity
+            android:name=".Pull_Shot_Doc"
+            android:exported="false" />
+        <activity
             android:name=".Flick_shot_tutorial"
             android:exported="false" />
         <activity

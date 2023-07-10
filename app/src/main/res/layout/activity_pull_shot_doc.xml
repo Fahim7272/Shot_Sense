@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pull_Shot_Doc">
+
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/ricky_ponting_pull_shot" />
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:text="PIC: Ricky Ponting Playing Pull Shot"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ob2"
+        android:layout_below="@+id/top"
+        android:layout_toRightOf="@+id/ob1"
+        android:text="SEE TUTORIAL" />
+
+    <ScrollView
+        android:id="@+id/ob2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/ob1">
+
+
+        <TextView
+            android:id="@+id/para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The pull shot is an aggressive and powerful stroke in cricket that enables batsmen to tackle short-pitched deliveries with authority and score runs on the leg side. It requires quick reflexes, strength, and precise timing. Mastering the pull shot can help batsmen dominate fast bowlers and turn the momentum in their team's favor.
+
+To execute the pull shot effectively, several key elements come into play. Firstly, footwork and positioning are crucial. As the bowler delivers a short-pitched delivery aimed at the body or chest, the batsman needs to quickly adjust their stance and get into position. They should pivot on the back foot, swiveling their hips and turning their body towards the leg side.
+
+Timing is of utmost importance when playing the pull shot. The batsman must gauge the height and pace of the ball, waiting for it to reach the desired level before committing to the stroke. Patience and confidence in their ability to time the shot are essential. It's crucial to wait for the ball to rise to the appropriate position to ensure a clean and controlled connection.
+
+As the ball approaches at the desired height, the batsman needs to bring the bat down forcefully in a controlled arc. The bottom hand plays a significant role in generating power and controlling the shot.
+
+When the bat makes contact with the ball, it should be with a full swing, aiming to hit the ball with authority and precision. The wrists should be strong and firm, providing control and direction to the shot. The power generated from the quick downward swing of the bat enables the batsman to send the ball racing towards the leg side boundary.
+
+After making contact, the batsman should follow through with the shot, ensuring balance and control. This helps maintain control over the direction and power of the shot.
+
+Regular practice and match experience are vital for developing a sound pull shot. Batsmen should focus on refining their footwork, timing, and technique through dedicated net sessions and simulated match scenarios. By mastering the pull shot, batsmen can confidently take on short-pitched deliveries, unsettle fast bowlers, and score valuable runs.
+
+In conclusion, the pull shot is an aggressive and powerful stroke that allows a batsman to score runs on the leg side. By employing the right footwork, timing, and execution, a batsman can play this exhilarating stroke and send the ball soaring towards the boundary, thrilling the crowd, and adding valuable runs to the scoreboard." />
+
+    </ScrollView>
+
+
+</RelativeLayout>
