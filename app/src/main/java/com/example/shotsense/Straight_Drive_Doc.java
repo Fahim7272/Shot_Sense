@@ -20,7 +20,7 @@ public class Straight_Drive_Doc extends AppCompatActivity {
         b1=(Button)findViewById(R.id.bt1);
         b1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"COVER DRIVE TUTORIAL",
+                Toast.makeText(getApplicationContext(),"STRAIGHT DRIVE TUTORIAL",
                         Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Straight_Drive_Doc.this, Straight_drive_tutorial.class);
                 startActivity(intent);

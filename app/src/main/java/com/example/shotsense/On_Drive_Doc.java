@@ -19,7 +19,7 @@ public class On_Drive_Doc extends AppCompatActivity {
         b1=(Button)findViewById(R.id.bt1);
         b1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"On Drive Tutorial",
+                Toast.makeText(getApplicationContext(),"ON DRIVE TUTORIAL",
                         Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(On_Drive_Doc.this, On_drive_tutorial.class);
                 startActivity(intent);
