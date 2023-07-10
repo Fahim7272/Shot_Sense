@@ -72,6 +72,17 @@ public class Menu extends AppCompatActivity {
         });
 
 
+        hook_shot=(Button)findViewById(R.id.hook_shot_bt);
+        hook_shot.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Hook Shot",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Menu.this, Hook_Shot_Doc.class);
+                startActivity(intent);
+            }
+        });
+
+
 
 
 

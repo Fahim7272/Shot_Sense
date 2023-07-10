@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hook_Shot_Doc">
+
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:src="@drawable/ricky_ponting_hook_shot_" />
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:text="PIC: Ricky ponting playing hook shot"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ob2"
+        android:layout_below="@+id/top"
+        android:layout_toRightOf="@+id/ob1"
+        android:text="SEE TUTORIAL" />
+
+    <ScrollView
+        android:id="@+id/ob2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/ob1">
+
+
+        <TextView
+            android:id="@+id/para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The hook shot is a daring and exciting stroke in cricket, allowing batsmen to take on short-pitched deliveries with aggression and power. It requires a combination of quick reflexes, timing, and courage. Mastering the hook shot can give batsmen an edge against fast bowlers and provide thrilling moments on the field.
+
+To play the hook shot effectively, several key elements come into play. Firstly, footwork and positioning are crucial. As the bowler delivers a short-pitched delivery aimed at the body or head, the batsman needs to swiftly get into position by swiveling on the back foot and turning their body towards the leg side.
+
+Timing is of utmost importance when executing the hook shot. The batsman must judge the bounce and pace of the ball and wait for it to reach the desired height before committing to the shot. Patience and confidence in their ability to time the shot are essential. It's crucial to wait for the ball to rise to the appropriate level to ensure a clean and controlled connection.
+
+As the ball approaches at the desired height, the batsman needs to pivot on the back foot, rotating their body and bringing the bat down in a controlled and forceful arc. The bottom hand plays a significant role in generating power and controlling the shot.
+
+When the bat makes contact with the ball, it should be with a full swing, aiming to hit the ball with authority and precision. The wrists should be strong to guide the shot and direct the ball towards the leg side.
+
+After making contact, the batsman needs to follow through with the shot, ensuring balance and control. This helps maintain control over the direction and power of the shot.
+
+The hook shot requires practice, courage, and a keen understanding of the bowler's tactics. Batsmen should dedicate time to refining their footwork, timing, and technique through specific training sessions and simulated match scenarios. By mastering the hook shot, batsmen can confidently tackle short-pitched deliveries, unsettle the opposition's fast bowlers, and score valuable runs.
+
+In conclusion, the hook shot is an exhilarating stroke that demonstrates a batsman's bravery and ability to counter-attack. By employing the right footwork, timing, and execution, a batsman can play this daring stroke and send the ball soaring over the leg side, thrilling the crowd, and adding valuable runs to the scoreboard."
+            />
+
+    </ScrollView>
+
+
+</RelativeLayout>
